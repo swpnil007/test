@@ -1,0 +1,24 @@
+Functonal Requirements:
+        1.Google cloud subsciption or AWS subsciption. 
+        2.Intranet infrastructure.
+        3.Desktops/Laptops for employees.
+	4.OS: Ubuntu 16 or above/ Windows server.
+	5.Ram: 16 GB ddr4 Dual channel 2666mHz.
+	6.HDD: 1 TB.
+	7.Processor: Intel Core Xeon / AMD ThreadRipper.
+        8.Accesibilty: Application should be accesible to all                        the employees
+	
+
+Non-Functional Requirements:
+         1)security: The application has to be secure from all                      types of threats.
+        
+	2)Relybility: The application should be reliable and                         maintain correct data for correct                              employee
+	  
+        3)Feassibility: The application should be accessibe                            form various platforms and devices
+	
+        4)Scalability: The application should be able to                              increase the load handling capacity                        as number of user increases
+	 
+        5)Maintainabilty: The application should be easy to                              maintain.
+	
+	
+	

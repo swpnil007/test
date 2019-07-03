@@ -1,0 +1,71 @@
+Problem Declaration & defination
+-------------------------------------------
+1.Northwind which have 9 accross the globe offshore developmnt centers wants to host a website fot their empolyee for accessing 
+the information of there corporate customer across the globe.
+2.Customer Information will be shown according to the registered office or according to the special
+case
+3.for A office all other office's customer details are read only accept the office itself details
+4.Customers cannot change there information (Customer login services)
+5.Customer can Make payment and See there Outstanding & Remaining Balance. 
+__________________________________________________________________________________
+Actors:
+
+Customer(customerinfo,customer address,contact information,account no.)
+Employee(empid,emp address,emp contact information,customer id)
+
+Entity:
+
+Role
+Employee
+office
+Account
+customer
+
+
+Functional Requirment
+
+Login
+Access Information (With there respective customer)
+handle complain & cases (Register cutmor of their ofice or Forworded cases)
+update Customer Information
+Logout
+
+
+Non Functional Requirement
+
+Feedback Analysis
+Business Intelligency
+Rating Customer
+Rating Employee
+Payment Remainder
+Genrate Bill
+
+Git Commands
+
+Remove pre user
+$git config --global --unset user.name
+
+$git config --global --unset user.email
+
+$git config --global user.name Heerendra
+
+$git config --global user.name heerendramahore20@gmail.com
+
+$git config --global --edit(set user & other setting)
+
+$git config --list(Check the satus of user)
+
+$git init
+
+$git status(check status weather file is modified or ready for upload or not)
+
+$git add -A(-A for all file or upload via perticular extension)
+
+$git commit -m "Initial Commit"
+
+$git remote add origin https://github.com/Heerendra/test.git
+
+$git push -u origin master
+
+$git clone https://github.com/Heerendra/test.git
+=============================================================
